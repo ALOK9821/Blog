@@ -28,6 +28,7 @@ export const signup = async (req,res,next) => {
         name,
         email,
         password : hashpassword,
+        blogs : [],
     });
    
     try{
